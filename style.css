@@ -312,24 +312,24 @@ section .container {
   max-width: 60%;
 }
 h3.hello {
-  font-size: 28px;
+  font-size: 23px;
   margin: 15px 0;
 }
 h3.hello span {
   font-family: "clicker Script", cursive;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   color: var(--skin-color);
 }
 h3.my-profession {
-  font-size: 30px;
+  font-size: 25px;
   margin: 15px 0;
 }
 .typing {
   color: var(--skin-color);
 }
 .home-info p {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-size: 20px;
   color: var(--text-black-700);
   text-align: justify;
