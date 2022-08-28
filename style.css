@@ -329,11 +329,12 @@ h3.my-profession {
   color: var(--skin-color);
 }
 .home-info p {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   font-size: 20px;
   color: var(--text-black-700);
+  text-align: justify;
 }
-.home .btn:hover {
+.home .btn {
   -webkit-animation: vibrate-1 0.3s linear infinite both;
   animation: vibrate-1 0.3s linear infinite both;
 }
@@ -394,6 +395,7 @@ h3.my-profession {
 .about .about-content .about-text {
   flex: 0 0 100%;
   max-width: 100%;
+  text-align: justify;
 }
 .about-text h3 {
   font-size: 24px;
@@ -424,6 +426,12 @@ h3.my-profession {
   font-size: 1rem;
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
+}
+.about .personal-info .info-item  a {
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 4px;
+  display: inline-block;
 }
 .about .personal-info .info-item p span {
   font-weight: 400;
@@ -494,6 +502,12 @@ h3.my-profession {
   max-width: 50%;
   margin-top: 30px;
 }
+.about .education .timeline-text span {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--text-black-900);
+}
 .about .about-content h3.title {
   font-size: 24px;
   font-weight: 700;
@@ -520,6 +534,10 @@ h3.my-profession {
   position: relative;
   padding-left: 37px;
   padding-bottom: 50px;
+}
+.about .timeline .timeline-item li {
+  list-style: disc;
+  padding-bottom: 4px;
 }
 .about .timeline .timeline-item:last-child {
   padding-bottom: 0;
@@ -657,15 +675,15 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item-inner {
-  border: 6px solid var(--bg-black-100);
-  border-radius: 40px;
-  /* object-fit: cover; */
-  overflow: hidden;
+  border: 4px solid var(--bg-black-100);
+  border-radius: 10px;
+  /*object-fit: cover;
+  */overflow: hidden;
   cursor: pointer;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
@@ -705,6 +723,12 @@ h3.my-profession {
   margin: 15px 0 5px;
 }
 .contact .contact-info-item p {
+  font-size: 1rem;
+  line-height: 25px;
+  color: var(--text-black-700);
+  font-weight: 400;
+}
+.contact .contact-info-item a {
   font-size: 1rem;
   line-height: 25px;
   color: var(--text-black-700);
